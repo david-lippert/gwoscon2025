@@ -1,13 +1,27 @@
-# gwoscon2025
-publicly available details about the George Washington Open Source Conference for 2025
+# GWU OSCON 2025
+GW OSCON 2025's resources and open source collaborative art piece
 
-# Overview
-Due to the condenced planning schedule for our conference we were not able to walk the open source walk as much as we would have liked.  This repo is an effort to rectify that and create a template for sharing more information for future conferences.
+## HOW TO CONTRIBUTE ART
+1. Make some art! The OSCON has construction paper, pastels, and giant markers that you can use to create your masterpiece. That can be abstract patterns, self-portraits, botanicals, stick figures, messages, and anything else you'd like to share. If you'd like to share something you've already made, that's fine too.
+2. Take a photo of your work (your phone will work just fine)
+3. Select the photo_upload branch of this repository
+4. Click on the `YOUR_FOLDER_HERE` folder in the codebase, choose `Add File` in the top right corner, and upload your photo.
+5. Open a pull request to the `main` branch. Once we merge it, your art will join the projection. 
 
-# Resources
-Here is a small list of informational files supporting the conference.  Starting small with the intention to add more details in future conference.  Ideally, if I get approval, I would like to include budgets, sponsor prospectus, and other information that might help organizers of future or similar conferences.
- - [X] Code of Conduct
- - [X] No Show Policy
- - [ ] JEDI
- - [ ] Sponsor Prospectus
- - [ ] Budget (waiting on approval)
+If you aren't sure how any of these steps work, ask an OSCON volunteer to show you.
+
+## HOW TO CONTRIBUTE CODE
+This projection is a github pages site, brought to you by Jekyll and p5.js.
+The fun stuff is in the `_includes` directory, particularly `Photo.js`, a class that handles animation and display of all the floating artwork.
+
+To run locally, customize settings if needed in `_config.yml`, run `bundle install` to install ruby gems, and run `bundle exec jekyll serve` to launch in-browser.
+
+## CONFERENCE DETAILS
+This repository hosts [The OSCON 2025 Code of Conduct](CODE_OF_CONDUCT.md) and [The OSCON 2025 No-Show Policy](/Users/maxturer/locals/gwoscon2025/NO_SHOW_POLICY.md)
+
+## CONTRIBUTORS
+[David Lippert](https://github.com/david-lippert)
+
+[Max Turer](https://github.com/maxturer)
+
+[Michael Rosetti](https://github.com/s2t2)
